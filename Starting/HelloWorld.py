@@ -1,3 +1,2 @@
 print("Hello, World!")
-#or
-print('Hello, World!');
+# In this code, we use the print() function to display the string "Hello, World!" on the console. The print() function is a built-in function in Python that allows us to output text or other data to the console. When we run this code, it will output "Hello, World!" as a greeting message.
