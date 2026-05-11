@@ -1,3 +1,4 @@
+# This code demonstrates the use of if-else statements in Python to make decisions based on certain conditions.
 
 is_student = True
 if is_student:
