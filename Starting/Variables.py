@@ -15,7 +15,7 @@ name = "Bro"
 
 age = 30
 
-height = 1.75
+height = 1.75756
 
 is_student = True
 
@@ -28,7 +28,9 @@ print(f"Hello, {name}!")  # Output: Hello, Bro!
 print(age)   # Output: 30
 print(type(age))  # Output: <class 'int'>
 
-print(height)  # Output: 1.75
+print(height)  # Output: 1.75756
+print(f"Height: {height:.2f}")  # Output: Height: 1.76
+# In this example, we are using string formatting to display the height variable with 2 decimal places.
 print(type(height))  # Output: <class 'float'>
 
 print(is_student)  # Output: True
