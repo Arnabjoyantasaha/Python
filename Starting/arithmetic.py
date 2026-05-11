@@ -1,5 +1,3 @@
-# arithmetic operators & math functions
-
 # arithmetic operators
 
 print(5 + 3)  # addition
