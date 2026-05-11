@@ -1,4 +1,8 @@
 # This code demonstrates the use of if-else statements in Python to make decisions based on certain conditions.
+# if = do something if a condition is true
+# else = do something if the condition is false
+# elif = do something if the previous conditions were false and this condition is true
+#
 
 is_student = True
 if is_student:
@@ -19,6 +23,16 @@ else:
 age = 20
 if age >= 18:
     print("You are an adult.")
-else:
+elif age < 0:
+    print("You are Dead.")
+else: 
     print("You are a minor.")
 # In this code, we have an integer variable age that represents a person's age. We use an if-else statement to check if the age is greater than or equal to 18. If it is, we print "You are an adult." Otherwise, we print "You are a minor." In this case, since age is set to 20, the output will be "You are an adult."
+
+
+name = input("Enter your name: ")
+if name == "":  # Check if the name is an empty string
+    print("You didn't enter your name.")
+else:
+    print("You didn't enter your name.")
+# In this code, we use the input() function to prompt the user to enter their name. We then check if the name is an empty string (i.e., if the user didn't enter anything). If the name is empty, we print "You didn't enter your name." Otherwise, we also print "You didn't enter your name." In this case, since both conditions lead to the same output, it will always print "You didn't enter your name." regardless of the user's input.
