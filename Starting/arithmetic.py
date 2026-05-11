@@ -2,18 +2,26 @@
 
 print(5 + 3)  # addition
 # In this example, we are adding 5 and 3 using the + operator. The result will be the sum of 5 and 3, which is 8.
+
 print(5 - 2)  # subtraction
 # Here, we are subtracting 2 from 5 using the - operator. The result will be the difference between 5 and 2, which is 3.
+
 print(4 * 3)  # multiplication
 # In this case, we are multiplying 4 by 3 using the * operator. The result will be the product of 4 and 3, which is 12.
+
 print(10 / 2)  # division
 # Here, we are dividing 10 by 2 using the / operator. The result will be the quotient of 10 and 2, which is 5.0 (since division in Python results in a float).
+
 print(10 // 3)  # floor division (returns the quotient without the remainder)
 # In this example, we are performing floor division of 10 by 3 using the // operator. The result will be the quotient of 10 and 3 without the remainder, which is 3.
+
 print(10 % 3)  # modulus (returns the remainder)
 # Here, we are calculating the modulus of 10 by 3 using the % operator. The result will be the remainder when 10 is divided by 3, which is 1.
+
 print(2 ** 3)  # exponentiation (2 raised to the power of 3)
 # In this case, we are performing exponentiation by raising 2 to the power of 3 using the ** operator. The result will be 8, since 2 multiplied by itself three times equals 8.
+
+#########################################################################################################################################################
 
 print("New")
 
