@@ -1,6 +1,6 @@
 import math
 # import is a keyword in Python that allows you to include external modules or libraries in your code. in this case, we are importing the math module, which provides various mathematical functions and constants.
-# import math allows us to use functions like math.sqrt(), math.sin(), math.cos(), and constants like math.pi in our code.
+# import math allows us to use functions like math.sqrt(), math.sin(), math.cos(), and constants like math.pi, math.e in our code.
 
 
 x = 3.14
@@ -38,12 +38,16 @@ print(result)  # Output: -4
 a = 9.4
 print(math.pi)  # Output: 3.141592653589793
 # math.pi is a constant in the math module that represents the value of pi, which is the ratio of a circle's circumference to its diameter. it is approximately equal to 3.14159.
+
 print(math.e) # Output: 2.718281828459045
 # math.e is a constant in the math module that represents the value of Euler's number, which is the base of the natural logarithm. it is approximately equal to 2.71828.
+
 print(math.sqrt(16))  # Output: 4.0
 # math.sqrt() is a function in the math module that calculates the square root of a number. in this case, it calculates the square root of 16, which is 4.0.
+
 print(math.ceil(a))  # Output: 10
 # math.ceil() is a function in the math module that returns the smallest integer greater than or equal to a number. in this case, it returns 10, which is the smallest integer greater than or equal to 9.4.
+
 print(math.floor(a))  # Output: 9
 # math.floor() is a function in the math module that returns the largest integer less than or equal to a number. in this case, it returns 9, which is the largest integer less than or equal to 9.4
 
