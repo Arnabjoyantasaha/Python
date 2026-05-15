@@ -17,7 +17,7 @@ result = abs(y)
 # abs is a built-in function that returns the absolute value of a number. it removes the negative sign if the number is negative, and returns the number itself if it is positive or zero.
 print(result)  # Output: 4
 
-# pow
+# po
 result = pow(z, 2)
 # pow is a built-in function that takes two arguments: the base and the exponent. it returns the result of raising the base to the power of the exponent. in this case, it calculates 5 raised to the power of 2, which is 25.
 print(result)  # Output: 25
