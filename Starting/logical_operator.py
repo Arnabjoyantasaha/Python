@@ -5,14 +5,17 @@
 
 temp = int(input("what is the temperature outside? "))
 
-if temp >= 0 and temp <= 30: # 
-    print("the temperature is good today")
-    print("go outside")
-elif temp < 0 or temp > 30: # this is the same as not (temp >= 0 and temp <= 30)
-    print("the temperature is bad today")
-    print("stay inside")
-elif temp >= 0 and not temp <= 30:   # this is the same as temp > 30
-    print("the temperature is bad today")
-    print("stay inside")
-else:
-    print("enter a valid number")
+is_sunny = True
+
+if temp >= 28 and is_sunny:
+    print("the event is not cancelled")
+if temp >= 28 and not is_sunny:
+    print("the event is not cancelled")
+elif temp >= 28 or is_sunny:
+    print("the event is not cancelled")
+
+else:    print("the event is cancelled")
+
+
+
+
